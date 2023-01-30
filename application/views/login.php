@@ -43,6 +43,7 @@
             font-size: 8vh;
             color: #4E1784;
         }
+        
         .content{
             margin-top: 7vh;
             margin-left: 5vh;

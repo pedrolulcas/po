@@ -26,6 +26,8 @@ class estoque extends CI_Controller {
 		foreach($notify as $n){
 			if($n->quantidade_disponivel <= $n->quantidade_minima_produto+($n->quantidade_minima_produto*0.5)){
 				$notify_all[] = $n;
+			} else{
+				$notify_all[] = 0;
 			}
 		}
 		$data["notificacoes"] = $notify_all;

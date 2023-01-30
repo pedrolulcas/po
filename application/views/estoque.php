@@ -24,9 +24,8 @@
                 <td>'.ucfirst($produto->tipo_produto).'</td>
                 <td>
                     <div class="container-fluid d-flex">
-                       <a href="./estoque/delete/'.$produto->id_produto.'"> <i class="bi m-1 bi-x-lg"></i> </a>
-                       <a href="#"> <i class="bi m-1 bi-pencil-fill"></i> </a>
-                       
+                       <a href="./estoque/delete/'.$produto->id_produto.'"> <i class="bi m-1 bi-x-lg" style="color: #4E1784;"></i> </a>
+                       <a href="#"> <i class="bi m-1 bi-pencil-fill" style="color: #4E1784;"></i> </a>
                     </div>
                 </td>
             </tr>
